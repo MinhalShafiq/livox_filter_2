@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/minhal/livox_ws/devel/include/**",
+        "/home/minhal/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/minhal/catkin_ws/src/livox_filter/include/**",
+        "/home/minhal/ws/src/livox_filter_2/include/**",
+        "/home/minhal/catkin_ws/src/slam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,6 @@
+<launch>
+    <arg name="threshold" default="15"/> <!-- Set default value here -->
+    <node pkg="livox_filter" type="livox_filter" name="livox_filter" output="screen">
+        <param name="threshold" type="int" value="$(arg threshold)"/> <!-- Remove /livox_filter -->
+    </node>
+</launch>
